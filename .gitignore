@@ -1,0 +1,34 @@
+# Ignore build output
+**/bin/
+**/obj/
+**/*.csproj.lock
+**/appsettings.*.json
+!**/appsettings.json
+# Ignore solution files
+*.user
+*.suo
+
+# Ignore NuGet packages
+**/*.nupkg
+**/*.snupkg
+packages/
+**/*.nuspec
+
+# Ignore test results and logs
+TestResults/
+**/*.log
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+**/*.sln.dotnet
+**/*.userprefs
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore debugging and temporary files
+**/*.pdb
+**/*.mdb
+**/*.swp

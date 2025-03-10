@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinhCoach_Notification_Service.Infra", "MinhCoach_Notification_Service.Infra\MinhCoach_Notification_Service.Infra.csproj", "{FDFF206E-5854-4134-809F-CABFFE60B16C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinhCoach_Notification_Service.Domain", "MinhCoach_Notification_Service.Domain\MinhCoach_Notification_Service.Domain.csproj", "{CF06953C-7EAA-4F12-8B90-F6C8F008D608}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinhCoach_Notification_Service.Contracts", "MinhCoach_Notification_Service.Contracts\MinhCoach_Notification_Service.Contracts.csproj", "{64D6F08C-E9C8-4A21-935D-26975A74BAFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinhCoach_Notification_Service.App", "MinhCoach_Notification_Service.App\MinhCoach_Notification_Service.App.csproj", "{AF8063E7-162E-4493-AF33-192EEB19A973}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinhCoach_Notification_Service.Api", "MinhCoach_Notification_Service.Api\MinhCoach_Notification_Service.Api.csproj", "{5522EA90-E61E-4066-867E-E027206A7BD4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDFF206E-5854-4134-809F-CABFFE60B16C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDFF206E-5854-4134-809F-CABFFE60B16C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDFF206E-5854-4134-809F-CABFFE60B16C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDFF206E-5854-4134-809F-CABFFE60B16C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF06953C-7EAA-4F12-8B90-F6C8F008D608}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF06953C-7EAA-4F12-8B90-F6C8F008D608}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF06953C-7EAA-4F12-8B90-F6C8F008D608}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF06953C-7EAA-4F12-8B90-F6C8F008D608}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64D6F08C-E9C8-4A21-935D-26975A74BAFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64D6F08C-E9C8-4A21-935D-26975A74BAFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64D6F08C-E9C8-4A21-935D-26975A74BAFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64D6F08C-E9C8-4A21-935D-26975A74BAFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF8063E7-162E-4493-AF33-192EEB19A973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF8063E7-162E-4493-AF33-192EEB19A973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF8063E7-162E-4493-AF33-192EEB19A973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF8063E7-162E-4493-AF33-192EEB19A973}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5522EA90-E61E-4066-867E-E027206A7BD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5522EA90-E61E-4066-867E-E027206A7BD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5522EA90-E61E-4066-867E-E027206A7BD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5522EA90-E61E-4066-867E-E027206A7BD4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
